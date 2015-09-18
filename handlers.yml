@@ -43,3 +43,6 @@ dropbox:
 xhamster:
     regex: ^(https?:\/\/)?(www\.)?xhamster\.com\/.*$
     executionFormat: "./scripts/xhamster/xham.sh {link} {destinationFolder}"
+mega:
+    regex: ^(https?:\/\/)?(www\.)?mega(\.co)?\.nz\/.*$
+    executionFormat: "./scripts/mega/megadown.sh {link} {destinationFolder}"
