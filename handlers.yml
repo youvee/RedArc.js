@@ -40,3 +40,6 @@ makeagif:
 dropbox:
     regex: ^((https?:\/\/)?(www\.)?dropbox\.com\/.*|(https?:\/\/)?dl\.dropboxusercontent\.com/.*)$
     executionFormat: "./scripts/dropbox/dropbox.sh {link} {destinationFolder}"
+xhamster:
+    regex: ^(https?:\/\/)?(www\.)?xhamster\.com\/.*$
+    executionFormat: "./scripts/xhamster/xham.sh {link} {destinationFolder}"
